@@ -20,7 +20,7 @@ const TLink = ({children, href, className}: Props) => {
 
         const body = document.querySelector('body');
         body?.classList.add('page-transition');
-        await sleep(600);
+        await sleep(700);
         router.push(href);
         await sleep(1000);
         body?.classList.remove('page-transition');
