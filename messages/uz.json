@@ -1,5 +1,4 @@
 {
-
   "HeaderTop": {
     "address": "Toshkent",
     "aboutUs": "Biz haqimizda",
@@ -7,7 +6,34 @@
     "centers": "Markazlar",
     "home":"Bosh sahifa",
     "resourses": "Resurslar",
-    "liked": "Sevimlilar"
+    "liked": "Sevimlilar",
+    "signIn": "Kirish",
+    "signUp": "Ro'yxatdan o'tish"
+  },
+  "Auth":{
+    "signIn": "Kirish",
+    "signUp": "Ro'yxatdan o'tish",
+    "logout": "Chiqish",
+    "noAccount" : "Hisobingiz yo'qmi ?",
+    "createAccount": "Ro'yxatdan o'tish",
+    "forgotPassword": "Parolni unutdingizmi ?",
+    "resetPassword": "Parolni tiklash",
+    "haveAccount" : "Allaqachon hisobingiz bormi ?",
+    "nameError" : "Iltimos ismingizni kiriting",
+    "surnameError": "Iltimos familiyangizni kiriting",
+    "emailError" : "Iltimos emailingizni kiriting",
+    "passwordError" : "Iltimos parolingizni kiriting",
+    "phoneError" : "Iltimos telefon raqamingizni kiriting",
+    "photoError": "Iltimos rasmingizni yuklang",
+    "name": "Ismingizni kiriting",
+    "surname": "Familiyangizni kiriting",
+    "email": "Emailingizni kiriting",
+    "password": "Parolingizni kiriting",
+    "phone": "Telefon raqamingizni kiriting",
+    "photo": "Rasmingizni yuklang",
+    "confirmPassword": "Parolingizni qayta kiriting",
+    "forgetPassword": "Parolni unutdingizmi ?",
+    "welcomeBack": "Xush kelibsiz",
+    "welcome": "Saytimizga xush kelibsiz"
   }
- 
 }

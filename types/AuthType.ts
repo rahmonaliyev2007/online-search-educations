@@ -19,6 +19,7 @@ export type RegisterUserType = {
 }
 
 export interface AuthPropsTypes {
-    isLoginOpen: boolean,
+    isLoginOpen?: boolean,
+    setIsLogin?:React.Dispatch<React.SetStateAction<boolean>>,
     setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>>
 }

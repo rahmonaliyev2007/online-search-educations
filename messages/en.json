@@ -3,6 +3,37 @@
     "address": "Tashkent",
     "aboutUs": "About Us",
     "contact": "Contact",
-    "products": "Products"
+    "centers": "Centers",
+    "home": "Home",
+    "resourses": "Resources",
+    "liked": "Favorites",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "Auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "logout": "Logout",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Create Account",
+    "forgotPassword": "Forgot your password?",
+    "resetPassword": "Reset Password",
+    "haveAccount": "Already have an account?",
+    "nameError": "Please enter your name",
+    "surnameError": "Please enter your surname",
+    "emailError": "Please enter your email",
+    "passwordError": "Please enter your password",
+    "phoneError": "Please enter your phone number",
+    "photoError": "Please upload your photo",
+    "name": "Enter your name",
+    "surname": "Enter your surname",
+    "email": "Enter your email",
+    "password": "Enter your password",
+    "phone": "Enter your phone number",
+    "photo": "Upload your photo",
+    "confirmPassword": "Re-enter your password",
+    "forgetPassword": "Forgot your password?",
+    "welcomeBack": "Welcome back",
+    "welcome": "Welcome to our website"
   }
 }

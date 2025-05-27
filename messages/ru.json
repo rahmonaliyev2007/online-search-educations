@@ -3,6 +3,37 @@
     "address": "Ташкент",
     "aboutUs": "О нас",
     "contact": "Контакты",
-    "products": "Товары"
+    "centers": "Центры",
+    "home": "Главная",
+    "resourses": "Ресурсы",
+    "liked": "Избранное",
+    "signIn": "Войти",
+    "signUp": "Регистрация"
+  },
+  "Auth": {
+    "signIn": "Войти",
+    "signUp": "Регистрация",
+    "logout": "Выйти",
+    "noAccount": "Нет аккаунта?",
+    "createAccount": "Создать аккаунт",
+    "forgotPassword": "Забыли пароль?",
+    "resetPassword": "Сброс пароля",
+    "haveAccount": "Уже есть аккаунт?",
+    "nameError": "Пожалуйста, введите имя",
+    "surnameError": "Пожалуйста, введите фамилию",
+    "emailError": "Пожалуйста, введите email",
+    "passwordError": "Пожалуйста, введите пароль",
+    "phoneError": "Пожалуйста, введите номер телефона",
+    "photoError": "Пожалуйста, загрузите фото",
+    "name": "Введите имя",
+    "surname": "Введите фамилию",
+    "email": "Введите email",
+    "password": "Введите пароль",
+    "phone": "Введите номер телефона",
+    "photo": "Загрузите фото",
+    "confirmPassword": "Повторите пароль",
+    "forgetPassword": "Забыли пароль?",
+    "welcomeBack": "С возвращением",
+    "welcome": "Добро пожаловать на наш сайт"
   }
 }
