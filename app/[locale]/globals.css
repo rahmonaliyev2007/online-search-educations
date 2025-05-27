@@ -102,3 +102,21 @@
     background-position: 200% 0;
   }
 }
+
+.logo-i{
+  width: 3px;
+  height: 20px;
+  background: #FEDB0E;
+  transform: translateY(-6.5px);
+  position: relative;
+}
+.logo-i-o{
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  border: 3px solid #FEDB0E;
+  top: -7.5px;
+  left: -6px;
+  border-radius: 50%;
+}

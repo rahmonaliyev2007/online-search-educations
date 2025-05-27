@@ -4,7 +4,10 @@
     "address": "Toshkent",
     "aboutUs": "Biz haqimizda",
     "contact": "Aloqa",
-    "centers": "Markazlar"
+    "centers": "Markazlar",
+    "home":"Bosh sahifa",
+    "resourses": "Resurslar",
+    "liked": "Sevimlilar"
   }
  
 }

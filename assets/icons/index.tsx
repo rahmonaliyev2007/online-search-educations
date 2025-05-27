@@ -324,3 +324,54 @@ export const ClockIcon = () => {
 
     )
 }
+export const UzbekistanFlagIcon = () => {
+    return (
+        <svg width="24" height="24" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#1eb53a" d="M0 320h640v160H0z" />
+            <path fill="#fff" d="M0 160h640v160H0z" />
+            <path fill="#0099b5" d="M0 0h640v160H0z" />
+            <path fill="#ce1126" d="M0 155h640v10H0zM0 315h640v10H0z" />
+            <circle fill="#fff" cx="90" cy="80" r="40" />
+            <circle fill="#0099b5" cx="100" cy="80" r="30" />
+            {Array.from({ length: 12 }, (_, i) => {
+                const angle = (i * 30) * (Math.PI / 180);
+                const x = 140 + Math.cos(angle) * 20;
+                const y = 40 + Math.sin(angle) * 20;
+                return <circle key={i} cx={x} cy={y} r="5" fill="#fff" />;
+            })}
+        </svg>
+    );
+};
+
+export const RussiaFlagIcon = () => {
+    return (
+        <svg width="24" height="24" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#fff" d="M0 0h640v160H0z" />
+            <path fill="#0033a0" d="M0 160h640v160H0z" />
+            <path fill="#d52b1e" d="M0 320h640v160H0z" />
+        </svg>
+    );
+};
+
+export const USAFlagIcon = () => {
+    return (
+        <svg width="24" height="24" viewBox="0 0 7410 3900" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#b22234" d="M0 0h7410v300H0z" />
+            {[...Array(13)].map((_, i) => (
+                <rect key={i} y={i * 300} width="7410" height="150" fill={i % 2 === 0 ? "#fff" : "#b22234"} />
+            ))}
+            <rect width="2964" height="2100" fill="#3c3b6e" />
+            {[...Array(9)].flatMap((_, row) =>
+                [...Array(row % 2 === 0 ? 6 : 5)].map((_, col) => (
+                    <circle
+                        key={`${row}-${col}`}
+                        cx={col * 494 + (row % 2 === 0 ? 247 : 494)}
+                        cy={row * 233 + 190}
+                        r="90"
+                        fill="#fff"
+                    />
+                ))
+            )}
+        </svg>
+    );
+};

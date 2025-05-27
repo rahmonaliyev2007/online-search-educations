@@ -9,8 +9,8 @@ import { Layout } from "@/features";
 import { ThemeProvider } from "@/context/ThemeProvider";
 import { Toaster } from 'react-hot-toast';
 export const metadata: Metadata = {
-  title: "Ashyo - Online Store",
-  description: "An e-commerce platform for unique products",
+  title: "FindEdu.uz",
+  description: "In this site , you can search educations and join to them",
 };
 
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }>; }) {
