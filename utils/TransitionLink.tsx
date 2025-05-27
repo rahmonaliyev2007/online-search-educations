@@ -10,9 +10,7 @@ interface Props {
 }
 
 function sleep (ms: number) {
-  return new Promise(resolve =>
-    setTimeout(resolve, ms)
-    )
+  return new Promise(resolve =>setTimeout(resolve, ms))
 }
 const TLink = ({children, href, className}: Props) => {
     const router = useRouter();
@@ -22,9 +20,9 @@ const TLink = ({children, href, className}: Props) => {
 
         const body = document.querySelector('body');
         body?.classList.add('page-transition');
-        await sleep(200);
+        await sleep(1000);
         router.push(href);
-        await sleep(200);
+        await sleep(1000);
         body?.classList.remove('page-transition');
     }
   return (
