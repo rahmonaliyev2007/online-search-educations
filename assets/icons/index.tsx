@@ -375,3 +375,34 @@ export const USAFlagIcon = () => {
         </svg>
     );
 };
+
+export const LogOutIcon = () =>{
+    return(
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.1592 9.1005H7.125" stroke="#46A358" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+<path d="M14.7202 6.67041L17.1602 9.10041L14.7202 11.5304" stroke="#46A358" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+<path d="M12.6333 5.35817C12.3583 2.37484 11.2416 1.2915 6.79997 1.2915C0.882468 1.2915 0.882468 3.2165 0.882468 8.99984C0.882468 14.7832 0.882468 16.7082 6.79997 16.7082C11.2416 16.7082 12.3583 15.6248 12.6333 12.6415" stroke="#46A358" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+</svg>
+
+    )
+}
+
+export const EditIcon = () =>{
+    return(
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  width="24"
+  height="24"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    d="M15.232 5.232l3.536 3.536M9 13l6-6 3 3-6 6H9v-3zM3 17.25V21h3.75l11.06-11.06-3.75-3.75L3 17.25z"
+  />
+</svg>
+    )
+}

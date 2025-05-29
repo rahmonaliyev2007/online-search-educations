@@ -12,7 +12,7 @@ export const Context = createContext<ContextType>({
 
 export const CotegoryContext: FC<{ children: ReactNode }> = ({ children }) => {
     const [showCategory, setShowCategory] = useState<boolean>(false)
-    const [isLogged, setIsLogged] = useState(getCookie('user') ? true : false)
+    const [isLogged, setIsLogged] = useState(getCookie('NEXT_TOKEN') ? true : false)
  return(
     <Context.Provider value={{setShowCategory, showCategory, isLogged, setIsLogged}}>{children}</Context.Provider>
  )

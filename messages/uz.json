@@ -8,7 +8,9 @@
     "resourses": "Resurslar",
     "liked": "Sevimlilar",
     "signIn": "Kirish",
-    "signUp": "Ro'yxatdan o'tish"
+    "signUp": "Ro'yxatdan o'tish",
+    "logOut": "Chiqish",
+    "edit" : "Tahrirlash"
   },
   "Auth":{
     "signIn": "Kirish",
