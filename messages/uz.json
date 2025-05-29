@@ -10,7 +10,8 @@
     "signIn": "Kirish",
     "signUp": "Ro'yxatdan o'tish",
     "logOut": "Chiqish",
-    "edit" : "Tahrirlash"
+    "edit" : "Tahrirlash",
+    "logOutMsg": "Muvaffaqiyatli chiqildi"
   },
   "Auth":{
     "signIn": "Kirish",

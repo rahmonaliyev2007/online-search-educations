@@ -8,15 +8,18 @@
     "resourses": "Resources",
     "liked": "Favorites",
     "signIn": "Sign In",
-    "signUp": "Sign Up"
+    "signUp": "Sign Up",
+    "logOut": "Log Out",
+    "edit": "Edit",
+    "logOutMsg": "Successfully logged out"
   },
   "Auth": {
     "signIn": "Sign In",
     "signUp": "Sign Up",
-    "logout": "Logout",
+    "logout": "Log Out",
     "noAccount": "Don't have an account?",
-    "createAccount": "Create Account",
-    "forgotPassword": "Forgot your password?",
+    "createAccount": "Register",
+    "forgotPassword": "Forgot password?",
     "resetPassword": "Reset Password",
     "haveAccount": "Already have an account?",
     "nameError": "Please enter your name",
@@ -31,8 +34,8 @@
     "password": "Enter your password",
     "phone": "Enter your phone number",
     "photo": "Upload your photo",
-    "confirmPassword": "Re-enter your password",
-    "forgetPassword": "Forgot your password?",
+    "confirmPassword": "Confirm your password",
+    "forgetPassword": "Forgot password?",
     "welcomeBack": "Welcome back",
     "welcome": "Welcome to our website"
   }

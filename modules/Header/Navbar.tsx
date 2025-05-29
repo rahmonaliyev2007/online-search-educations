@@ -32,7 +32,7 @@ function Navbar() {
       router.push('/');
       setIsLogged(false)
       setIsOpen(false)
-      toast.success('Successfully logged out ');
+      toast.success(t('logOutMsg'));
     }
 
   return (

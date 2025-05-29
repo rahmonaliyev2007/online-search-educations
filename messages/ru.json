@@ -8,16 +8,19 @@
     "resourses": "Ресурсы",
     "liked": "Избранное",
     "signIn": "Войти",
-    "signUp": "Регистрация"
+    "signUp": "Регистрация",
+    "logOut": "Выйти",
+    "edit": "Редактировать",
+    "logOutMsg": "Вы успешно вышли"
   },
   "Auth": {
     "signIn": "Войти",
     "signUp": "Регистрация",
     "logout": "Выйти",
     "noAccount": "Нет аккаунта?",
-    "createAccount": "Создать аккаунт",
+    "createAccount": "Зарегистрироваться",
     "forgotPassword": "Забыли пароль?",
-    "resetPassword": "Сброс пароля",
+    "resetPassword": "Сбросить пароль",
     "haveAccount": "Уже есть аккаунт?",
     "nameError": "Пожалуйста, введите имя",
     "surnameError": "Пожалуйста, введите фамилию",
@@ -31,7 +34,7 @@
     "password": "Введите пароль",
     "phone": "Введите номер телефона",
     "photo": "Загрузите фото",
-    "confirmPassword": "Повторите пароль",
+    "confirmPassword": "Подтвердите пароль",
     "forgetPassword": "Забыли пароль?",
     "welcomeBack": "С возвращением",
     "welcome": "Добро пожаловать на наш сайт"
